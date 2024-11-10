@@ -2,6 +2,7 @@ import connectMongo from '@/lib/database';
 import Data from '@/models/DataModel'
 import jsonData from '@/json';
 
+
 connectMongo();
 export default async function handler(req, res) {
 
